@@ -3,8 +3,20 @@ body{
     margin: 0;
     color: #FFEBD0 ;
     background-color: #1D503A;
+    font-size: 16px;
 }
 
+@media (min-width: 768px) {
+    body {
+    font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+    font-size: 20px;
+    }
+}
 .favicon {
     display: flex;
     padding: 15px;
